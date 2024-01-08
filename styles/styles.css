@@ -52,6 +52,16 @@ h5 {
     line-height: normal;
 }
 
+h3 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
 /* Banner */
 .banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.5) 100%), url("../images/Banner.png");
@@ -239,13 +249,6 @@ h5 {
 }
 
 .new-offer .coming-soon h3 {
-    color: #070211;
-    font-family: 'Merriweather', serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
     margin-top: 16px;
     margin-bottom: 22px;
 }
@@ -350,3 +353,38 @@ h5 {
     bottom: 190%;
 }
 
+/* Portfolio */
+#portfolio {
+    margin-top: 120px;
+}
+
+.portfolio .portfolio-text h3 {
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.portfolio .portfolio-text p {
+    max-width: 896px;
+}
+
+.portfolio .portfolio-img {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio .portfolio-img .portfolio-img-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.portfolio .portfolio-img .portfolio-img-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio .portfolio-img img {
+    width: 424px;
+    height: 450px;
+}
