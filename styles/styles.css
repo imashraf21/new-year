@@ -440,3 +440,60 @@ h3 {
     text-transform: capitalize;
     font-weight: 600;
 }
+
+/* Footer */
+#footer {
+    margin-top: 120px;
+    height: 609px;
+    background: #070211;
+}
+
+.footer p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500; 
+}
+
+.footer .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 48px auto;
+}
+
+.footer .footer-icons img {
+    width: 64px;
+    height: 64px;
+}
+
+.footer .hline {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer .footer-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer .footer-address {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 50px;
+}
+
+.footer .footer-address ul {
+    padding-right: 140px;
+}
+
+.footer .footer-address .contact {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer .footer-address .contact img {
+    width: 24px;
+    height: 24px;
+}
