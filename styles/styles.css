@@ -16,6 +16,23 @@
     margin: 0 auto;
 }
 
+.button {
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    /* gap: 10px; */
+}
+
 /* Banner */
 .banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.5) 100%), url("../images/Banner.png");
@@ -50,7 +67,8 @@
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 95px; /* 131.944% */
+    line-height: 95px;
+    /* 131.944% */
 }
 
 /* New Year Sale */
@@ -104,5 +122,58 @@
 
 .offer .offer-img img {
     width: 100%;
-    
+
+}
+
+/* Greetings */
+#greetings {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.greetings {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+}
+
+.greetings .greetings-text {
+    max-width: 700px;
+}
+
+.greetings .greetings-text h1 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.greetings .greetings-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 32px;
+}
+
+.greetings .greetings-img {
+    position: relative;
+}
+
+.greetings .greetings-img img {
+    mix-blend-mode: lighten; 
+    /* multiply makes it invisible */
 }
