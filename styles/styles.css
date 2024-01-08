@@ -39,7 +39,17 @@ p {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    /* 160% */
+}
+
+h5 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 /* Banner */
@@ -228,16 +238,6 @@ p {
     max-width: 393px;
 }
 
-.new-offer .coming-soon h5 {
-    color: #F00;
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-bottom: 16px;
-}
-
 .new-offer .coming-soon h3 {
     color: #070211;
     font-family: 'Merriweather', serif;
@@ -246,6 +246,7 @@ p {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    margin-top: 16px;
     margin-bottom: 22px;
 }
 
@@ -253,7 +254,7 @@ p {
     max-width: 276px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .new-offer .year h3 {
@@ -288,3 +289,64 @@ p {
 .new-offer .new-offer-img img {
     width: 100%;
 }
+
+/* Sale */
+#sale {
+    margin-top: 120px;
+}
+
+.sale .sale-text {
+    text-align: center;
+}
+
+.sale .sale-text h5 {
+    color: #070211;
+    margin-bottom: 16px;
+}
+
+.sale .sale-text h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.sale .sale-text p {
+    max-width: 1068px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sale .sale-img {
+    max-width: 1320px;
+    height: 433px;
+    background-image: url(../images/Rectangle01.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    margin-top: 64px;
+}
+
+.sale .sale-img img {
+    position: relative;
+    top: 20%;
+    left: 56%;
+}
+
+.sale .sale-footer {
+    width: 1320px;
+    height: 229px;
+    background-image: url(../images/Rectangle02.png);
+    border-radius: 16px 0px 16px 16px;
+}
+
+.sale .sale-footer img {
+    /* mix-blend-mode: screen; */
+    /* mix blend not working */
+    position: relative;
+    bottom: 190%;
+}
+
