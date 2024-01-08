@@ -30,6 +30,7 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    cursor: pointer;
     /* gap: 10px; */
 }
 
@@ -273,8 +274,7 @@ h3 {
 .new-offer .year .year-img {
     height: 140px;
     width: 140px;
-    align-items: end;
-    /* Image is not aligned to the end */
+    padding-top: 50px;
 }
 
 .new-offer .year .year-img img {
@@ -348,7 +348,7 @@ h3 {
 
 .sale .sale-footer img {
     /* mix-blend-mode: screen; */
-    /* mix blend not working */
+    /* mix blend makes the background persistant */
     position: relative;
     bottom: 190%;
 }
@@ -387,6 +387,11 @@ h3 {
 .portfolio .portfolio-img img {
     width: 424px;
     height: 450px;
+    transition: .3s ease-in-out;
+}
+
+.portfolio .portfolio-img:hover img {
+    transform: scale(0.9);
 }
 
 /* Newsletter */
@@ -496,4 +501,12 @@ h3 {
 .footer .footer-address .contact img {
     width: 24px;
     height: 24px;
+}
+
+.footer a {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
 }
