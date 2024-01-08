@@ -437,4 +437,6 @@ h3 {
 
 .button-shape {
     border-radius: 0 50px 50px 0;
+    text-transform: capitalize;
+    font-weight: 600;
 }
