@@ -33,6 +33,15 @@
     /* gap: 10px; */
 }
 
+p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
 /* Banner */
 .banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.5) 100%), url("../images/Banner.png");
@@ -201,4 +210,81 @@
     line-height: 56px;
     text-transform: capitalize;
     margin-bottom: 48px;
+}
+
+/* Best New Offer */
+#new-offer {
+    margin-top: 120px;
+    height: 463px;
+}
+
+.new-offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-offer .coming-soon {
+    max-width: 393px;
+}
+
+.new-offer .coming-soon h5 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.new-offer .coming-soon h3 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.new-offer .year {
+    max-width: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.new-offer .year h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.new-offer .year .year-img {
+    height: 140px;
+    width: 140px;
+    align-items: end;
+    /* Image is not aligned to the end */
+}
+
+.new-offer .year .year-img img {
+    width: 100%;
+}
+
+.new-offer .new-offer-img {
+    height: 408px;
+    width: 408px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+    padding: 40px;
+}
+
+.new-offer .new-offer-img img {
+    width: 100%;
 }
